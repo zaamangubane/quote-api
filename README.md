@@ -31,4 +31,4 @@ flak run
 - Flask
 
 ## Screenshots
-Quote App (screenshot.png)
+![Quote App](screenshot.png)
