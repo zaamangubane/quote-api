@@ -1,6 +1,6 @@
 # Quote API
 
-A simple REST API built with Python and Flask that returns quotes.
+A simple REST API built with Python and Flask that returns quotes. It also includes a frontend interface that allows users to click a button to get a random quote dispayed on the page.
 
 ## How to Run Locally
 1. Clone the repository
@@ -29,3 +29,6 @@ flak run
 ## Tech Stack
 - Python
 - Flask
+
+## Screenshots
+Quote App (screenshot.png)
