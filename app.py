@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 import random
 
 app = Flask(__name__)
@@ -32,6 +32,10 @@ def get_quote_by_id(id):
     if quote:
         return jsonify(quote)
     return jsonify({"error": "Quote not found"}), 404
+
+@app.route('/')
+def home():
+    return render_template('index.html')
 
 if __name__ == '_main_':
     app.run(debug=True)
