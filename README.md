@@ -29,6 +29,9 @@ flak run
 ## Tech Stack
 - Python
 - Flask
+- Docker
+- GitHub actions
+- HTML, CSS, JavaScript
 
 ## Screenshots
 ![Quote App](screenshot.png)
